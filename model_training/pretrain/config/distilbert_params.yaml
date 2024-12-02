@@ -1,0 +1,14 @@
+---
+seed: 92
+test_frac: 0.1
+#batch_size: 32        # Works with GPU NVIDIA A100
+batch_size: 16        # Works with GPU NVIDIA V100
+max_sent_size: 512
+model_name: "distilbert-base-uncased"
+mlm_probability: 0.15 # probability of replacing a token by [MASK]; 15% was used in BERT original training
+pad_to_multiple_of_8: True
+learning_rate: 5e-5
+steps: 1000
+warmup_ratio: 0.1
+eval_steps: 50
+logging_steps: 50

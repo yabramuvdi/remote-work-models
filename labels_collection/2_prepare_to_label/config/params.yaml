@@ -1,0 +1,22 @@
+---
+total_postings: 100000
+language_shares:
+  non_negated_wfh: 0.25
+  negated_wfh: 0.25
+  generic_wfh: 0.5
+  non_generic: 0.0
+time_shares:
+  "pre_2018": 0
+  "2018": 0
+  "2019_to_feb_2020": 0.0
+  "march_to_dec_2020": 0.0
+  "2021": 0.0
+  "2022": 0.0
+  "2023": 1.0
+country_shares:
+  uk: 0.0
+  can: 0.0
+  anz: 0.0
+  us: 1.0
+
+

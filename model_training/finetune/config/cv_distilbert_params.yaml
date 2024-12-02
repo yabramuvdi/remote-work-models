@@ -1,0 +1,16 @@
+---
+seed: 92
+max_sent_size: 512
+model_name: "distilbert-base-uncased"
+n_splits: 3
+learning_rate:
+  - 2e-5
+  - 3e-5
+  - 5e-5
+epochs:
+  - 2
+  - 3
+  - 5
+batch_size:
+  - 16
+  - 32

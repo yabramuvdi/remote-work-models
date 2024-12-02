@@ -1,0 +1,19 @@
+---
+bucket_name: for_transfer
+bucket_mount_point: /home/yabra/data
+# # OLD (V1) LC feed
+# us_sequences: /sequences_us/sequences/  # path to US sequences in the Bucket
+# uk_sequences: /sequences_uk/sequences/  # path to UK sequences in the Bucket
+# can_sequences: /sequences_can/sequences/  # path to Canada sequences in the Bucket
+# anz_sequences: /sequences_anz/sequences/  # path to ANZ sequences in the Bucket
+# # paths to the output produced by other tasks
+# output_data:
+#   sample_selection_tagging: /remote-work-en/tasks/model_creation/1_sample_selection_tagging/output
+# NEW (V2) LC feed
+us_sequences: /lc_sequences/lc_sequences_us/  # path to US sequences in the Bucket
+uk_sequences: /lc_sequences/lc_sequences_uk/ # path to UK sequences in the Bucket
+can_sequences: /lc_sequences/lc_sequences_ca/ # path to Canada sequences in the Bucket
+anz_sequences: /lc_sequences/lc_sequences_anz/  # path to ANZ sequences in the Bucket
+# paths to the output produced by other tasks
+output_data:
+  sample_selection_tagging: /remote-work-en/tasks/model_creation/1_sample_selection_tagging_v2/output/
